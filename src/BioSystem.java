@@ -169,10 +169,10 @@ public class BioSystem {
         double alpha = input_alpha;
         int S = 500;
 
-        String filename = "fastGrowers-alpha="+String.valueOf(alpha)+"-spatialDistribution-FINAL";
-        String filename_gRate = "fastGrowers-alpha="+String.valueOf(alpha)+"-gRateDistribution-FINAL";
-        String filename_precise = "fastGrowers-alpha="+String.valueOf(alpha)+"-spatialDistribution_precise-FINAL";
-        String filename_gRate_precise = "fastGrowers-alpha="+String.valueOf(alpha)+"-gRateDistribution_precise-FINAL";
+        String filename = "realistic_betaSwapped-fastGrowers-alpha="+String.valueOf(alpha)+"-spatialDistribution-FINAL";
+        String filename_gRate = "realistic_betaSwapped-fastGrowers-alpha="+String.valueOf(alpha)+"-gRateDistribution-FINAL";
+        String filename_precise = "realistic_betaSwapped-fastGrowers-alpha="+String.valueOf(alpha)+"-spatialDistribution_precise-FINAL";
+        String filename_gRate_precise = "realistic_betaSwapped-fastGrowers-alpha="+String.valueOf(alpha)+"-gRateDistribution_precise-FINAL";
 
         int[][][] allMeasurements = new int[nReps][][];
         double[][][] allGRateMeasurements = new double[nReps][][];

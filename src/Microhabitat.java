@@ -45,7 +45,7 @@ public class Microhabitat {
 
         double mu = s/(K_prime+s);
         double mu_max = s_max/(K_prime+s_max);
-        double beta = 10. - 9.*mu/mu_max;
+        double beta = 1. + 9.*mu/mu_max;
         double phi_c = 1./(1 + c/beta);
         return (phi_c > 0.) ? phi_c*mu : 0.;
     }
